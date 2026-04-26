@@ -49,4 +49,8 @@ You can **right-click a name** to remove it.<br>
 **Greeting Template** is what sends when you press "Greet".<br>
 **Staff Sync** is the linkshell you will use to sync the messages. This can be disabled.<br>
 
+
+
+
+
 Disclosure: Hostingway was written with the assistance of AI with the creator as a Co-pilot. The co-pilot is currently trying to learn C# through AI assistance, so code is susceptible to having errors or being messy, but has been tested and driven by extensive human input. Random comments were left for the co-pilot to remember why things are a certain way. Thank you for any understanding.
