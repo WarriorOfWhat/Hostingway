@@ -7,7 +7,7 @@ Hostingway is a venue manager's utility tool that assists in tracking guests wit
 Syncing works by the plug-in sending a hidden message into the set linkshell, which is picked up by anyone in that linkshell using the plug-in. This helps to avoid double greeting guests, as well as if staff needs to make a note, they can insert it themselves and you will get the note as well.
 **PLEASE NOTE:** Notes will be overriden by whoever puts the last note in and presses save.
 
-### Guide 
+## Guide 
 
 <img width="600" height="372" alt="hosting-example" src="https://github.com/user-attachments/assets/ff7d702e-2af6-45a7-8ffa-7edab25e1819" />
 
@@ -35,7 +35,7 @@ $\color{grey}{\text{Grey}}$: No longer in the venue<br>
 
 **Clear Offline History:** If guests have left the venue and you want a cleaner list, you can use this to wipe out anyone that has exited the venue. This will still preserve all notes.<br>
 
-### Spinningway
+## Spinningway
 
 Spinningway is another plug-in from this repo integrated into Hostingway. It's a prize wheel to help venue staff with giveaways and other contests.
 It's pretty straightforward. While it's intended for name drawing, it can also be used for other games.
@@ -52,7 +52,7 @@ You can also type a name in to manually add them.<br>
 
 You can **right-click a name** to remove it.<br>
 
-### Settings
+## Settings
 
 **Enable Doorbell** uses an echo chat to ping you that someone has arrived.<br>
 
