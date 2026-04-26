@@ -14,6 +14,7 @@ Syncing works by the plug-in sending a hidden message into the set linkshell, wh
 ### Guest List
 
 **Arrived:** What time a guest arrived.<br>
+
 **Status:** Are they still present, or what time they left.<br>
 
 **Guest Info:**<br>
@@ -24,7 +25,7 @@ White: Greeted<br>
 $\color{grey}{\text{Grey}}$: No longer in the venue<br>
 '[*]' - Only appears if a note exists. Can be hovered to view notes written by you or staff.
 
-!**Greet:** Sends customized DM (Settings tab) to greet your guest with important information, like your website, discord, or rules. Once pressed, it remembers who has been greeted, even if they leave and come back.
+**Greet:** Sends customized DM (Settings tab) to greet your guest with important information, like your website, discord, or rules. Once pressed, it remembers who has been greeted, even if they leave and come back.
 
 **Note:** Notes to help you remember a guest for a more personalized experience. 100 character limit.
 
@@ -40,14 +41,21 @@ Spinningway is another plug-in from this repo integrated into Hostingway. It's a
 It's pretty straightforward. While it's intended for name drawing, it can also be used for other games.
 
 **Bulk entry** lets you copy and paste names from an external list for the wheel.<br>
+
 **Add Target** let's you click someone and add them to the wheel.<br>
+
 **Add nearby** will add everyone within 20 yalms to the wheel.<br>
+
 You can also type a name in to manually add them.<br>
+
 **Clear wheel** will remove all names.<br>
+
 You can **right-click a name** to remove it.<br>
 
 ### Settings
 
 **Enable Doorbell** uses an echo chat to ping you that someone has arrived.<br>
+
 **Greeting Template** is what sends when you press "Greet".<br>
+
 **Staff Sync** is the linkshell you will use to sync the messages. This can be disabled.<br>
