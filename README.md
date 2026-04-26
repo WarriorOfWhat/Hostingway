@@ -11,11 +11,11 @@ Syncing works by the plug-in sending a hidden message into the set linkshell, wh
 
 ### Guide 
 
-<img width="1021" height="633" alt="hosting-example" src="https://github.com/user-attachments/assets/ff7d702e-2af6-45a7-8ffa-7edab25e1819" />
+<img width="600" height="372" alt="hosting-example" src="https://github.com/user-attachments/assets/ff7d702e-2af6-45a7-8ffa-7edab25e1819" />
 
 <ins>Guest List</ins>
 
-**Arrived:** What time a guest arrived.
+**Arrived:** What time a guest arrived.<br>
 **Status:** Are they still present, or what time they left.
 
 **Guest Info:**
