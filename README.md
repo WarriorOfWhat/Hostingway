@@ -1,6 +1,6 @@
 # Hostingway
 
-Hostingway is a venue manager's utility tool that assists in tracking guests within your venue location with a button that lets you send a customizable DM to greet them, let's you add notes about each visitor to provide a personal experience for future visits, as well as gives you a button to add them to a prize wheel for giveaways and other events. This information can be synced through staff by utilizing a shared linkshell.
+Hostingway is a venue manager's utility tool that assists in tracking guests within your venue location with a button that lets you send a customizable DM to greet them, add notes about each visitor to provide a personal experience for future visits, as well as gives you a button to add them to a prize wheel for giveaways and other events. This information can be synced through staff by utilizing a shared linkshell.
 
 ## Syncing
 
@@ -43,7 +43,7 @@ You can also type a name in to manually add them.
 **Clear wheel** will remove all names.
 You can **right-click a name** to remove it.
 
-<ins>Settings</ins>
+### Settings
 
 **Enable Doorbell** uses an echo chat to ping you that someone has arrived.
 **Greeting Template** is what sends when you press "Greet".
