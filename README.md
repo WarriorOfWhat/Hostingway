@@ -2,7 +2,7 @@
 
 Hostingway is a venue manager's utility tool that assists in tracking guests within your venue location with a button that lets you send a customizable DM to greet them, add notes about each visitor to provide a personal experience for future visits, as well as gives you a button to add them to a prize wheel for giveaways and other events. This information can be synced through staff by utilizing a shared linkshell.
 
-Repo: [https://github.com/WarriorOfWhat/WhatRepo/blob/main/repo.json](https://WarriorOfWhat.github.io/WhatRepo/repo.json)
+Repo: https://WarriorOfWhat.github.io/WhatRepo/repo.json
 
 ## Syncing
 
