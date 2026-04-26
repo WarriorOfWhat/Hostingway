@@ -19,9 +19,9 @@ Syncing works by the plug-in sending a hidden message into the set linkshell, wh
 **Guest Info:**<br>
 Name @ World - Guest name and their home world<br>
 <ins>Colors</ins><br>
-Gold: New, not greeted yet<br>
+<code style="color : gold">Gold</code>: New, not greeted yet<br>
 White: Greeted<br>
-Grey: No longer in the venue<br>
+<code style="color : grey">Grey</code>: No longer in the venue<br>
 '[*]' - Only appears if a note exists. Can be hovered to view notes written by you or staff.
 
 **Greet:** Sends customized DM (Settings tab) to greet your guest with important information, like your website, discord, or rules.
