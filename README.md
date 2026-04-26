@@ -19,7 +19,7 @@ Syncing works by the plug-in sending a hidden message into the set linkshell, wh
 **Guest Info:**<br>
 Name @ World - Guest name and their home world<br>
 <ins>Colors</ins><br>
-<code style="color : gold">Gold</code>: New, not greeted yet<br>
+$\color{yellow}{\text{Gold}}$: New, not greeted yet<br>
 White: Greeted<br>
 <code style="color : grey">Grey</code>: No longer in the venue<br>
 '[*]' - Only appears if a note exists. Can be hovered to view notes written by you or staff.
