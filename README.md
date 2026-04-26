@@ -24,7 +24,7 @@ White: Greeted<br>
 $\color{grey}{\text{Grey}}$: No longer in the venue<br>
 '[*]' - Only appears if a note exists. Can be hovered to view notes written by you or staff.
 
-**Greet:** Sends customized DM (Settings tab) to greet your guest with important information, like your website, discord, or rules. Once pressed, it remembers who has been greeted, even if they leave and come back.
+!**Greet:** Sends customized DM (Settings tab) to greet your guest with important information, like your website, discord, or rules. Once pressed, it remembers who has been greeted, even if they leave and come back.
 
 **Note:** Notes to help you remember a guest for a more personalized experience. 100 character limit.
 
