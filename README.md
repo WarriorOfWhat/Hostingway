@@ -40,13 +40,13 @@ $\color{grey}{\text{Grey}}$: No longer in the venue<br>
 Spinningway is another plug-in from this repo integrated into Hostingway. It's a prize wheel to help venue staff with giveaways and other contests.
 It's pretty straightforward. While it's intended for name drawing, it can also be used for other games.
 
-**Bulk entry** lets you copy and paste names from an external list for the wheel.<br>
+**Bulk Entry:** Lets you copy and paste names from an external list for the wheel.<br>
 
-**Add Target** let's you click someone and add them to the wheel.<br>
+**Add Target:** Lets you click someone and add them to the wheel.<br>
 
-**Add nearby** will add everyone within 20 yalms to the wheel.<br>
+**Add Nearby:** Will add everyone within 20 yalms to the wheel.<br>
 
-You can also type a name in to manually add them.<br>
+**Manual:** You can also type a name in to manually add them.<br>
 
 **Clear wheel** will remove all names.<br>
 
@@ -54,8 +54,12 @@ You can **right-click a name** to remove it.<br>
 
 ## Settings
 
-**Enable Doorbell** uses an echo chat to ping you that someone has arrived.<br>
+**Enable Doorbell:** Uses an echo chat to ping you that someone has arrived.<br>
 
-**Greeting Template** is what sends when you press "Greet".<br>
+**Greeting Template:** What sends when you press "Greet".<br>
 
-**Staff Sync** is the linkshell you will use to sync the messages. This can be disabled.<br>
+**Staff Sync:** The linkshell you will use to sync the messages. This can be disabled.<br>
+
+**Spinningway Chat Settings**
+
+**Announce:** LEts you decide if you want the wheel to automatically announce the winners. You can select which chat to send the message to, which can be customized below these settings.
