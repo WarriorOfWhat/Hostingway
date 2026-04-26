@@ -11,7 +11,7 @@ Syncing works by the plug-in sending a hidden message into the set linkshell, wh
 
 <img width="600" height="372" alt="hosting-example" src="https://github.com/user-attachments/assets/ff7d702e-2af6-45a7-8ffa-7edab25e1819" />
 
-### Guest List
+## Guest List
 
 **Arrived:** What time a guest arrived.<br>
 
