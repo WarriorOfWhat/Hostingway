@@ -1,44 +1,47 @@
+<img width="279" height="279" alt="icon-hosting" src="https://github.com/user-attachments/assets/cba2c6dc-2453-4c49-9420-285c2461c6c3" />
+
 ## Hostingway
 
-### Getting Started
+Hostingway is a venue manager's utility tool that assists in tracking guests within your venue location with a button that lets you send a customizable DM to greet them, let's you add notes about each visitor to provide a personal experience for future visits, as well as gives you a button to add them to a prize wheel for giveaways and other events. This information can be synced through staff by utilizing a shared linkshell.
 
-To begin, [clone this template repository][new-repo] to your own GitHub account. This will automatically bring in everything you need to get a jumpstart on development. You do not need to fork this repository unless you intend to contribute modifications to it.
+<ins>Syncing</ins>
 
-Be sure to also check out the [Dalamud Developer Docs][dalamud-docs] for helpful information about building your own plugin. The Developer Docs includes helpful information about all sorts of things, including [how to submit][submit] your newly-created plugin to the official repository. Assuming you use this template repository, the provided project build configuration and license are already chosen to make everything a breeze.
+Syncing works by the plug-in sending a hidden message into the set linkshell, which is picked up by anyone in that linkshell using the plug-in. This helps to avoid double greeting guests, as well as if staff needs to make a note, they can insert it themselves and you will get the note as well.
+**PLEASE NOTE:** Notes will be overriden by whoever puts the last note in. Notes are limited in size by XIV's chat, which is 500 characters (spaces included), and because it needs a prefix message for the sync, please limit characters to 450.
 
-[new-repo]: https://github.com/new?template_name=SamplePlugin&template_owner=goatcorp
-[dalamud-docs]: https://dalamud.dev
-[submit]: https://dalamud.dev/plugin-publishing/submission
+### Guide 
 
-### Prerequisites
+<img width="1021" height="633" alt="hosting-example" src="https://github.com/user-attachments/assets/ff7d702e-2af6-45a7-8ffa-7edab25e1819" />
 
-SamplePlugin assumes all the following prerequisites are met:
+<ins>Guest List</ins>
 
-* XIVLauncher, FINAL FANTASY XIV, and Dalamud have all been installed and the game has been run with Dalamud at least once.
-* XIVLauncher is installed to its default directories and configurations.
-  * If a custom path is required for Dalamud's dev directory, it must be set with the `DALAMUD_HOME` environment variable.
-* A .NET Core 8 SDK has been installed and configured, or is otherwise available. (In most cases, the IDE will take care of this.)
+**Arrived:** What time a guest arrived.
+**Status:** Are they still present, or what time they left.
+**Guest Info:**
+* Name @ World - Guest name and their home world
+* * Colors
+  * Gold: New, not greeted yet
+  * White: Greeted
+  * Grey: No longer in the venue
+* '[*]' - Only appears if a note exists. Can be hovered to view notes written by you or staff.
+* 
 
-### Building
+**Greet:** Sends customized DM (Settings tab) to greet your guest with important information, like your website, discord, or rules.
+**Note:** Notes to help you remember a guest for a more personalized experience. 450 character limit.
 
-1. Open up `SamplePlugin.sln` in your C# editor of choice (likely [Visual Studio 2022](https://visualstudio.microsoft.com) or [JetBrains Rider](https://www.jetbrains.com/rider/)).
-2. Build the solution. By default, this will build a `Debug` build, but you can switch to `Release` in your IDE.
-3. The resulting plugin can be found at `SamplePlugin/bin/x64/Debug/SamplePlugin.dll` (or `Release` if appropriate.)
+**Reset Session Greets:** Mainly used for testing purposes, but if you need to reset who has been greeted, you can use this button to do so.
+**Clear Offline History:** If guests have left the venue and you want a cleaner list, you can use this to wipe out anyone that has exited the venue.
 
-### Activating in-game
 
-1. Launch the game and use `/xlsettings` in chat or `xlsettings` in the Dalamud Console to open up the Dalamud settings.
-    * In here, go to `Experimental`, and add the full path to the `SamplePlugin.dll` to the list of Dev Plugin Locations.
-2. Next, use `/xlplugins` (chat) or `xlplugins` (console) to open up the Plugin Installer.
-    * In here, go to `Dev Tools > Installed Dev Plugins`, and the `SamplePlugin` should be visible. Enable it.
-3. You should now be able to use `/pmycommand` (chat) or `pmycommand` (console)!
 
-Note that you only need to add it to the Dev Plugin Locations once (Step 1); it is preserved afterwards. You can disable, enable, or load your plugin on startup through the Plugin Installer.
 
-### Reconfiguring for your own uses
 
-Replace all references to `SamplePlugin` in all the files and filenames with your desired name, then start building the plugin of your dreams. You'll figure it out 😁
 
-Dalamud will load the JSON file (by default, `SamplePlugin/SamplePlugin.json`) next to your DLL and use it for metadata, including the description for your plugin in the Plugin Installer. Make sure to update this with information relevant to _your_ plugin!
 
-All participation in this repository is governed by our [Code of Conduct](https://dalamud.dev/code-of-conduct). If you used AI tooling at any point, review the [AI Usage Policy](https://dalamud.dev/plugin-publishing/ai-policy) and disclose your level of AI use. Entirely AI-generated submissions will be rejected, and undisclosed AI use may result in a ban.
+
+
+
+
+
+
+Disclosure: Hostingway was written with the assistance of AI with the creator as a Co-pilot. The co-pilot is currently trying to learn C# through AI assistance, so code is susceptible to having errors or being messy, but has been tested and driven by extensive human input. Random comments were left for the co-pilot to remember why things are a certain way. Thank you for any understanding.
