@@ -24,11 +24,11 @@ White: Greeted<br>
 $\color{grey}{\text{Grey}}$: No longer in the venue<br>
 '[*]' - Only appears if a note exists. Can be hovered to view notes written by you or staff.
 
-**Greet:** Sends customized DM (Settings tab) to greet your guest with important information, like your website, discord, or rules. Once pressed, it remembers who has been greeted, even if they leave and come back.
-**Note:** Notes to help you remember a guest for a more personalized experience. 100 character limit.
-**+Wheel:** Adds player to the Spinningway wheel. See below.
+**Greet:** Sends customized DM (Settings tab) to greet your guest with important information, like your website, discord, or rules. Once pressed, it remembers who has been greeted, even if they leave and come back.<br>
+**Note:** Notes to help you remember a guest for a more personalized experience. 100 character limit.<br>
+**+Wheel:** Adds player to the Spinningway wheel. See below.<br>
 
-**Reset Session Greets:** We recommend using this before using **Clear Offline History** if you want to greet everyone the same every night, including regulars. If not, this can be ignored.
+**Reset Session Greets:** We recommend using this before using **Clear Offline History** if you want to greet everyone the same every night, including regulars. If not, this can be ignored.<br>
 **Clear Offline History:** If guests have left the venue and you want a cleaner list, you can use this to wipe out anyone that has exited the venue. This will still preserve all notes.
 
 ### Spinningway
