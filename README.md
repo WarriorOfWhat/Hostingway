@@ -1,5 +1,3 @@
-<img width="279" height="279" alt="icon-hosting" src="https://github.com/user-attachments/assets/cba2c6dc-2453-4c49-9420-285c2461c6c3" />
-
 ## Hostingway
 
 Hostingway is a venue manager's utility tool that assists in tracking guests within your venue location with a button that lets you send a customizable DM to greet them, let's you add notes about each visitor to provide a personal experience for future visits, as well as gives you a button to add them to a prize wheel for giveaways and other events. This information can be synced through staff by utilizing a shared linkshell.
@@ -16,14 +14,14 @@ Syncing works by the plug-in sending a hidden message into the set linkshell, wh
 <ins>Guest List</ins>
 
 **Arrived:** What time a guest arrived.<br>
-**Status:** Are they still present, or what time they left.
+**Status:** Are they still present, or what time they left.<br>
 
-**Guest Info:**
-Name @ World - Guest name and their home world
-<ins>Colors</ins>
-Gold: New, not greeted yet
-White: Greeted
-Grey: No longer in the venue
+**Guest Info:**<br>
+Name @ World - Guest name and their home world<br>
+<ins>Colors</ins><br>
+Gold: New, not greeted yet<br>
+White: Greeted<br>
+Grey: No longer in the venue<br>
 '[*]' - Only appears if a note exists. Can be hovered to view notes written by you or staff.
 
 **Greet:** Sends customized DM (Settings tab) to greet your guest with important information, like your website, discord, or rules.
