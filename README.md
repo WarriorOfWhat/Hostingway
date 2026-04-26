@@ -17,6 +17,7 @@ Syncing works by the plug-in sending a hidden message into the set linkshell, wh
 
 **Arrived:** What time a guest arrived.
 **Status:** Are they still present, or what time they left.
+
 **Guest Info:**
 * Name @ World - Guest name and their home world
 * * Colors
@@ -24,7 +25,6 @@ Syncing works by the plug-in sending a hidden message into the set linkshell, wh
   * White: Greeted
   * Grey: No longer in the venue
 * '[*]' - Only appears if a note exists. Can be hovered to view notes written by you or staff.
-* 
 
 **Greet:** Sends customized DM (Settings tab) to greet your guest with important information, like your website, discord, or rules.
 **Note:** Notes to help you remember a guest for a more personalized experience. 450 character limit.
