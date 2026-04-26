@@ -1,0 +1,8 @@
+E:\FFXIV Mods\[5 Plugins]\Hostingway\Hostingway\obj\x64\Debug\Hostingway.csproj.AssemblyReference.cache
+E:\FFXIV Mods\[5 Plugins]\Hostingway\Hostingway\obj\x64\Debug\Hostingway.GeneratedMSBuildEditorConfig.editorconfig
+E:\FFXIV Mods\[5 Plugins]\Hostingway\Hostingway\obj\x64\Debug\Hostingway.AssemblyInfoInputs.cache
+E:\FFXIV Mods\[5 Plugins]\Hostingway\Hostingway\obj\x64\Debug\Hostingway.AssemblyInfo.cs
+E:\FFXIV Mods\[5 Plugins]\Hostingway\Hostingway\obj\x64\Debug\Hostingway.csproj.CoreCompileInputs.cache
+E:\FFXIV Mods\[5 Plugins]\Hostingway\Hostingway\bin\x64\Debug\Hostingway.deps.json
+E:\FFXIV Mods\[5 Plugins]\Hostingway\Hostingway\bin\x64\Debug\Hostingway.dll
+E:\FFXIV Mods\[5 Plugins]\Hostingway\Hostingway\obj\x64\Debug\Hostingway.dll

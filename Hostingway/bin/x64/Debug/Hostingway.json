@@ -1,0 +1,20 @@
+{
+  "Author": "The Warrior of WHAT",
+  "Name": "Hostingway",
+  "InternalName": "Hostingway",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "For venue managers to track guests, greet them, make notes, and more.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "venue",
+    "manager",
+    "host"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "A utility tool for venue managers.",
+  "AcceptsFeedback": true
+}
