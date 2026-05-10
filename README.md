@@ -6,8 +6,9 @@ Repo: https://WarriorOfWhat.github.io/WhatRepo/repo.json
 
 ## Syncing
 
-Syncing works by the plug-in sending a <strike>hidden</strike> message into the set linkshell, which is picked up by anyone in that linkshell using the plug-in. This helps to avoid double greeting guests, as well as if staff needs to make a note, they can insert it themselves and you will get the note as well. (NOTE 5/8/26): The message might not be hidden at this time. I'm working on it.
+Syncing works by the plug-in sending a <strike>hidden</strike> message into the set linkshell, which is picked up by anyone in that linkshell using the plug-in. This helps to avoid double greeting guests, as well as if staff needs to make a note, they can insert it themselves and you will get the note as well. 
 **PLEASE NOTE:** Notes will be overriden by whoever puts the last note in and presses save.
+(NOTE 5/8/26): The message might not be hidden at this time. I'm working on it.
 
 ## Guide 
 
