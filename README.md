@@ -83,7 +83,7 @@ Raffleway is an effort to move venue owners away from spreadsheets when they run
 
 ## Randomway
 
-<img width="581" height="542" alt="image" src="https://github.com/user-attachments/assets/ffeb6c84-b07c-4c54-876d-e3f851d38695" />
+<img width="581" height="559" alt="image" src="https://github.com/user-attachments/assets/ce2f47c6-8278-4abd-bc3e-5b22baa990fc" />
 
 Randomway was requested for games where the person needs to either get the highest, lowest, closest, or exact roll to win something.
 
