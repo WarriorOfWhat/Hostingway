@@ -11,9 +11,9 @@ Syncing works by the plug-in sending a hidden message into the set linkshell, wh
 
 ## Guide 
 
-<img width="580" height="413" alt="image" src="https://github.com/user-attachments/assets/9952811a-39d3-467d-8fe8-09e9fbfc78cf" />
-
 ## Greetingway
+
+<img width="580" height="413" alt="image" src="https://github.com/user-attachments/assets/9952811a-39d3-467d-8fe8-09e9fbfc78cf" />
 
 **Arrived:** What time a guest arrived.<br>
 
@@ -37,9 +37,9 @@ $\color{grey}{\text{Grey}}$: No longer in the venue<br>
 
 **Clear Offline History:** If guests have left the venue and you want a cleaner list, you can use this to wipe out anyone that has exited the venue. This will still preserve all notes.<br>
 
-<img width="583" height="748" alt="image" src="https://github.com/user-attachments/assets/763391b3-b4fa-419a-a24b-a9cfc839cf6f" />
-
 ## Spinningway
+
+<img width="583" height="748" alt="image" src="https://github.com/user-attachments/assets/763391b3-b4fa-419a-a24b-a9cfc839cf6f" />
 
 Spinningway is another plug-in from this repo integrated into Hostingway. It's a prize wheel to help venue staff with giveaways and other contests.
 It's pretty straightforward. While it's intended for name drawing, it can also be used for other games.
@@ -56,10 +56,9 @@ It's pretty straightforward. While it's intended for name drawing, it can also b
 
 You can **right-click a name** to remove it.<br>
 
-<img width="582" height="542" alt="image" src="https://github.com/user-attachments/assets/bfbf14c9-b00b-4fd1-aa94-6c7605a2cdda" />
-
-
 ## Raffleway
+
+<img width="582" height="542" alt="image" src="https://github.com/user-attachments/assets/bfbf14c9-b00b-4fd1-aa94-6c7605a2cdda" />
 
 Raffleway is an effort to move venue owners away from spreadsheets when they run their raffles. It also announces winners in game, and still utilizes /random for transparency.
 
@@ -81,9 +80,9 @@ Raffleway is an effort to move venue owners away from spreadsheets when they run
 
 **Clear All Entries:** Delete all the names and ticket numbers. It'll verify this before you do it so be careful.<br>
 
-<img width="581" height="542" alt="image" src="https://github.com/user-attachments/assets/ffeb6c84-b07c-4c54-876d-e3f851d38695" />
-
 ## Randomway
+
+<img width="581" height="542" alt="image" src="https://github.com/user-attachments/assets/ffeb6c84-b07c-4c54-876d-e3f851d38695" />
 
 Randomway was requested for games where the person needs to either get the highest, lowest, closest, or exact roll to win something.
 
@@ -97,9 +96,9 @@ Randomway was requested for games where the person needs to either get the highe
 
 **Clear All:** Delete all the names and numbers. It'll verify this before you do it so be careful.<br>
 
-<img width="583" height="685" alt="image" src="https://github.com/user-attachments/assets/8471dbea-0584-4eea-a52d-fcee676ac0f6" />
-
 ## Shoutingway
+
+<img width="583" height="685" alt="image" src="https://github.com/user-attachments/assets/8471dbea-0584-4eea-a52d-fcee676ac0f6" />
 
 Shoutingway is just a means to reduce your macro or copy/paste load by inserting a message and clicking shout/yell (whatever your preference) to execute it. Meant to help with occassional announcements managers like to do to advertise their websites, discord, or other events occurring at the venue that evening.
 
