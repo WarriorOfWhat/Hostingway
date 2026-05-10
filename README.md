@@ -11,7 +11,7 @@ Syncing works by the plug-in sending a hidden message into the set linkshell, wh
 
 ## Guide 
 
-<img width="582" height="351" alt="image" src="https://github.com/user-attachments/assets/537b61a3-1a83-4e2f-b634-a974f8bcb781" />
+<img width="580" height="413" alt="image" src="https://github.com/user-attachments/assets/9952811a-39d3-467d-8fe8-09e9fbfc78cf" />
 
 ## Greetingway
 
