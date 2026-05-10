@@ -42,7 +42,7 @@ $\color{grey}{\text{Grey}}$: No longer in the venue<br>
 
 <img width="583" height="748" alt="image" src="https://github.com/user-attachments/assets/763391b3-b4fa-419a-a24b-a9cfc839cf6f" />
 
-Spinningway is another plug-in from this repo integrated into Hostingway. It's a prize wheel to help venue staff with giveaways and other contests.
+Spinningway is a prize wheel to help venue staff with giveaways and other contests.
 It's pretty straightforward. While it's intended for name drawing, it can also be used for other games.
 
 **Bulk Entry:** Lets you copy and paste names from an external list for the wheel.<br>
