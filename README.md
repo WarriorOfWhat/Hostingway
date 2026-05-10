@@ -11,7 +11,7 @@ Syncing works by the plug-in sending a hidden message into the set linkshell, wh
 
 ## Guide 
 
-<img width="600" height="372" alt="hosting-example" src="https://github.com/user-attachments/assets/ff7d702e-2af6-45a7-8ffa-7edab25e1819" />
+<img width="582" height="351" alt="image" src="https://github.com/user-attachments/assets/537b61a3-1a83-4e2f-b634-a974f8bcb781" />
 
 ## Greetingway
 
@@ -37,6 +37,8 @@ $\color{grey}{\text{Grey}}$: No longer in the venue<br>
 
 **Clear Offline History:** If guests have left the venue and you want a cleaner list, you can use this to wipe out anyone that has exited the venue. This will still preserve all notes.<br>
 
+<img width="583" height="748" alt="image" src="https://github.com/user-attachments/assets/763391b3-b4fa-419a-a24b-a9cfc839cf6f" />
+
 ## Spinningway
 
 Spinningway is another plug-in from this repo integrated into Hostingway. It's a prize wheel to help venue staff with giveaways and other contests.
@@ -53,6 +55,9 @@ It's pretty straightforward. While it's intended for name drawing, it can also b
 **Clear wheel** will remove all names.<br>
 
 You can **right-click a name** to remove it.<br>
+
+<img width="582" height="542" alt="image" src="https://github.com/user-attachments/assets/bfbf14c9-b00b-4fd1-aa94-6c7605a2cdda" />
+
 
 ## Raffleway
 
@@ -76,6 +81,8 @@ Raffleway is an effort to move venue owners away from spreadsheets when they run
 
 **Clear All Entries:** Delete all the names and ticket numbers. It'll verify this before you do it so be careful.<br>
 
+<img width="581" height="542" alt="image" src="https://github.com/user-attachments/assets/ffeb6c84-b07c-4c54-876d-e3f851d38695" />
+
 ## Randomway
 
 Randomway was requested for games where the person needs to either get the highest, lowest, closest, or exact roll to win something.
@@ -89,6 +96,12 @@ Randomway was requested for games where the person needs to either get the highe
 **START SCANNING:** We recommend you hit this button BEFORE you tell people to start doing /random. It'll then detect every /random in the log as it pops up. It'll only pick up the first /random a person does and will not pick up the person running the plug-in if they accidentally /random into their own drawing.<br>
 
 **Clear All:** Delete all the names and numbers. It'll verify this before you do it so be careful.<br>
+
+<img width="583" height="685" alt="image" src="https://github.com/user-attachments/assets/8471dbea-0584-4eea-a52d-fcee676ac0f6" />
+
+## Shoutingway
+
+Shoutingway is just a means to reduce your macro or copy/paste load by inserting a message and clicking shout/yell (whatever your preference) to execute it. Meant to help with occassional announcements managers like to do to advertise their websites, discord, or other events occurring at the venue that evening.
 
 ## Settings
 
