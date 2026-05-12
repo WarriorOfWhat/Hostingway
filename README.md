@@ -93,7 +93,7 @@ Randomway was requested for games where the person needs to either get the highe
 
 **Closest to Target/Exact:** You can either enter this number manually, or use Roll for Target, which will then wait for you to do /random and automatically put the number into the box.<br>
 
-**START SCANNING:** We recommend you hit this button BEFORE you tell people to start doing /random. It'll then detect every /random in the log as it pops up. It'll only pick up the first /random a person does and will not pick up the person running the plug-in if they accidentally /random into their own drawing.<br>
+**START SCANNING:** We recommend you hit this button BEFORE you tell people to start doing /random. It'll then detect every /random in the log as it pops up. It'll only pick up the first /random a person does and if you select the prompt to include the host's rolls, it will do so. Otherwise it will ignore the host's rolls.<br>
 
 **Clear All:** Delete all the names and numbers. It'll verify this before you do it so be careful.<br>
 
@@ -104,6 +104,8 @@ Randomway was requested for games where the person needs to either get the highe
 Shoutingway is just a means to reduce your macro or copy/paste load by inserting a message and clicking shout/yell (whatever your preference) to execute it. Meant to help with occassional announcements managers like to do to advertise their websites, discord, or other events occurring at the venue that evening.
 
 ## Settings
+
+**Language Settings:** Supports English, French, and German. Spanish is included for the menus themselves, but not the actual rolling mechanics because Square doesn't support Spanish for some reason. You'll have to /random in English. Apologies.<br>
 
 **Lock Venue to This Zone / Unlock:** So you don't get 5 billion alerts when you go to Limsa that people have arrived, you can lock the plug-in to only look at your venue. You have to do this INSIDE. You could technically use it outside, but it becomes unreliable. Unlock clears the zone.<br>
 
