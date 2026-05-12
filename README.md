@@ -99,7 +99,7 @@ Randomway was requested for games where the person needs to either get the highe
 
 ## Shoutingway
 
-<img width="583" height="685" alt="image" src="https://github.com/user-attachments/assets/8471dbea-0584-4eea-a52d-fcee676ac0f6" />
+<img width="583" height="772" alt="image" src="https://github.com/user-attachments/assets/8240b050-9ac1-4f30-b4b5-389b46240b6e" />
 
 Shoutingway is just a means to reduce your macro or copy/paste load by inserting a message and clicking shout/yell (whatever your preference) to execute it. Meant to help with occassional announcements managers like to do to advertise their websites, discord, or other events occurring at the venue that evening.
 
