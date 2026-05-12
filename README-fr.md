@@ -1,5 +1,4 @@
-# [English] | [Français](README-fr.md) | [Deutsch](README-de.md) | [Español](README-es.md)
----
+# [English](README.md) | [Français](README-fr.md) | [Deutsch](README-de.md) | [Español](README-es.md)
 
 # Hostingway
 
