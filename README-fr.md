@@ -1,3 +1,6 @@
+# [English] | [Français](README-fr.md) | [Deutsch](README-de.md) | [Español](README-es.md)
+---
+
 # Hostingway
 
 Hostingway est un outil utilitaire pour les gestionnaires d'établissements qui aide à suivre les clients au sein de votre établissement. Il comprend un bouton pour envoyer un message privé (DM) personnalisable pour les accueillir, permet d'ajouter des notes sur chaque visiteur pour offrir une expérience personnalisée lors de futures visites, et propose un bouton pour les ajouter à une roue de la fortune pour des cadeaux ou d'autres événements. Ces informations peuvent être synchronisées entre les membres du personnel en utilisant un linkshell partagé.
