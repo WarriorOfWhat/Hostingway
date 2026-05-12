@@ -1,3 +1,5 @@
+# [English](README.md) | [Français](README-fr.md) | [Deutsch] | [Español](README-es.md)
+
 # Hostingway
 
 Hostingway ist ein Hilfswerkzeug für Location-Manager, das dabei hilft, Gäste in deiner Location im Blick zu behalten. Es bietet eine Schaltfläche zum Senden einer anpassbaren privaten Nachricht (DM) zur Begrüßung, ermöglicht das Hinzufügen von Notizen zu jedem Besucher für eine persönlichere Erfahrung bei zukünftigen Besuchen und enthält eine Schaltfläche, um Gäste direkt zu einem Glücksrad für Giveaways und andere Events hinzuzufügen. Diese Informationen können durch die Nutzung eines gemeinsamen Linkshells mit dem Personal synchronisiert werden.
