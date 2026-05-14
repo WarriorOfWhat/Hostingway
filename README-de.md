@@ -131,4 +131,4 @@ Shoutingway dient dazu, deine Makro- oder Copy/Paste-Last zu reduzieren, indem d
 
 **Staff Sync (Personal-Synchronisierung):** Der Linkshell, den du zum Synchronisieren der Nachrichten verwendest. Kann deaktiviert werden.<br>
 
-**Spinning/Raffle/Randomway Flavor Text:** Passe an, wie deine Ankündigungen klingen sollen.
+**Flavor Text:** Passe an, wie deine Ankündigungen klingen sollen.
