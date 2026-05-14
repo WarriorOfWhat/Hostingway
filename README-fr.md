@@ -99,6 +99,32 @@ Randomway a été conçu pour les jeux où une personne doit obtenir le score le
 
 **Clear All (Tout effacer) :** Supprime tous les noms et numéros. Une confirmation sera demandée.<br>
 
+## Quizzingway
+
+Quizzingway est là pour vous aider lors de vos soirées quiz ! Il vous permet de préparer les questions à l'avance, d'accepter plusieurs variantes pour une réponse, et prend en compte les fautes de frappe avec une marge d'erreur de 25 %.
+
+**Quizzingway Chat Channel :** Le canal où la question et le gagnant seront annoncés.<br>
+
+**Manage Saved Questions :** C'est ici que vous pouvez créer les questions et les réponses (simples ou multiples) que vous accepterez. Cliquez sur « Save to Bank » une fois terminé. Lorsque vous chargez (« Load ») une question, elle réapparaît ici, ce qui est nécessaire pour commencer le quiz.<br>
+
+**Start Question :** Une fois la question chargée, cliquez sur ce bouton pour l'annoncer dans le canal de discussion sélectionné. Le plugin analysera alors le chat pour trouver la réponse exacte ou la plus proche.<br>
+
+**Quality Check :** Ce tableau affiche le nom et la réponse potentielle fournie par chaque personne. Sélectionnez ensuite « AWARD » pour choisir le gagnant.<br>
+
+## Quizzingway
+
+<img width="761" height="732" alt="image" src="https://github.com/user-attachments/assets/5c1bb8f1-a120-4952-9f18-10c16bd7bc71" />
+
+Quizzingway est là pour vous aider lors de vos soirées quiz ! Il vous permet de préparer les questions à l'avance, d'accepter plusieurs variantes pour une réponse, et prend en compte les fautes de frappe avec une marge d'erreur de 25 %.
+
+**Quizzingway Chat Channel :** Le canal où la question et le gagnant seront annoncés.<br>
+
+**Manage Saved Questions :** C'est ici que vous pouvez créer les questions et les réponses (simples ou multiples) que vous accepterez. Cliquez sur « Save to Bank » une fois terminé. Lorsque vous chargez (« Load ») une question, elle réapparaît ici, ce qui est nécessaire pour commencer le quiz.<br>
+
+**Start Question :** Une fois la question chargée, cliquez sur ce bouton pour l'annoncer dans le canal de discussion sélectionné. Le plugin analysera alors le chat pour trouver la réponse exacte ou la plus proche.<br>
+
+**Quality Check :** Ce tableau affiche le nom et la réponse potentielle fournie par chaque personne. Sélectionnez ensuite « AWARD » pour choisir le gagnant.<br>
+
 ## Shoutingway
 
 <img width="583" height="772" alt="image" src="https://github.com/user-attachments/assets/8240b050-9ac1-4f30-b4b5-389b46240b6e" />
