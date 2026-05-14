@@ -105,13 +105,13 @@ Randomway a été conçu pour les jeux où une personne doit obtenir le score le
 
 Quizzingway est là pour vous aider lors de vos soirées quiz ! Il vous permet de préparer les questions à l'avance, d'accepter plusieurs variantes pour une réponse, et prend en compte les fautes de frappe avec une marge d'erreur de 25 %.
 
-**Quizzingway Chat Channel :** Le canal où la question et le gagnant seront annoncés.<br>
+**Canal du Quiz:** Là où la question et le gagnant seront annoncés.<br>
 
-**Manage Saved Questions :** C'est ici que vous pouvez créer les questions et les réponses (simples ou multiples) que vous accepterez. Cliquez sur « Save to Bank » une fois terminé. Lorsque vous chargez (« Load ») une question, elle réapparaît ici, ce qui est nécessaire pour commencer le quiz.<br>
+**Gérer les questions enregistrées :** C'est ici que vous pouvez créer les questions et les réponses (simples ou multiples) que vous accepterez. Cliquez sur « Save to Bank » une fois terminé. Lorsque vous chargez (« Load ») une question, elle réapparaît ici, ce qui est nécessaire pour commencer le quiz.<br>
 
-**Start Question :** Une fois la question chargée, cliquez sur ce bouton pour l'annoncer dans le canal de discussion sélectionné. Le plugin analysera alors le chat pour trouver la réponse exacte ou la plus proche.<br>
+**Lancer la question :** Une fois la question chargée, cliquez sur ce bouton pour l'annoncer dans le canal de discussion sélectionné. Le plugin analysera alors le chat pour trouver la réponse exacte ou la plus proche.<br>
 
-**Quality Check :** Ce tableau affiche le nom et la réponse potentielle fournie par chaque personne. Sélectionnez ensuite « AWARD » pour choisir le gagnant.<br>
+**Contrôle qualité :** Ce tableau affiche le nom et la réponse potentielle fournie par chaque personne. Sélectionnez ensuite « AWARD » pour choisir le gagnant.<br>
 
 ## Shoutingway
 
