@@ -99,6 +99,20 @@ Randomway fue solicitado para juegos donde la persona necesita sacar el número 
 
 **Clear All (Borrar todo):** Borra todos los nombres y números. Se verificará antes de hacerlo.<br>
 
+## Quizzingway
+
+<img width="761" height="732" alt="image" src="https://github.com/user-attachments/assets/5c1bb8f1-a120-4952-9f18-10c16bd7bc71" />
+
+¡Quizzingway está para ayudarte con tus noches de trivia! Te permite preparar las preguntas con antelación, admitir múltiples variaciones de la respuesta y tiene en cuenta los errores tipográficos con un margen de error del 25 %.
+
+**Canal de Quiz:** El canal donde se anunciará la pregunta y al ganador.<br>
+
+**Gestionar Banco de Preguntas:** Aquí es donde puedes crear las preguntas y la respuesta (o múltiples respuestas) que aceptarás. Haz clic en "Save to Bank" cuando termines. Al cargar ("Load") la pregunta, volverá a aparecer aquí, lo cual es necesario para comenzar el quiz.<br>
+
+**Lanzar Pregunta:** Una vez cargada la pregunta, pulsa este botón para anunciarla en el canal de chat seleccionado y el plugin escaneará el chat buscando la respuesta más cercana o exacta.<br>
+
+**Revision** Esta tabla te mostrará el nombre y la posible respuesta proporcionada por esa persona. Luego, selecciona "AWARD" para elegir al ganador.<br>
+
 ## Shoutingway
 
 <img width="583" height="772" alt="image" src="https://github.com/user-attachments/assets/8240b050-9ac1-4f30-b4b5-389b46240b6e" />
