@@ -99,6 +99,20 @@ Randomway wurde für Spiele angefragt, bei denen eine Person entweder den höchs
 
 **Clear All (Alles löschen):** Löscht alle Namen und Zahlen. Muss bestätigt werden.<br>
 
+## Quizzingway
+
+<img width="761" height="732" alt="image" src="https://github.com/user-attachments/assets/5c1bb8f1-a120-4952-9f18-10c16bd7bc71" />
+
+Quizzingway hilft dir bei deinen Quiz-Abenden! Es ermöglicht dir, Fragen vorzubereiten, verschiedene Antwortvarianten zu hinterlegen und berücksichtigt Tippfehler mit einer Fehlertoleranz von 25 %.
+
+**Quizzingway-Chat-Kanal:** Hier werden die Fragen und die Gewinner angekündigt.<br>
+
+**Gespeicherte Fragen verwalten:** Hier kannst du Fragen sowie die akzeptierten Antworten (auch mehrere Varianten) erstellen. Klicke auf „Save to Bank“, wenn du fertig bist. Wenn du eine Frage lädst („Load“), erscheint sie wieder hier – dies ist erforderlich, um das Quiz zu starten.<br>
+
+**Frage starten:** Sobald die Frage geladen ist, klicke auf diesen Button, um die Frage im ausgewählten Chat-Kanal zu posten. Das Plugin scannt den Chat dann nach der genauesten oder ähnlichsten Antwort.<br>
+
+**Qualitätsprüfung:** Diese Tabelle zeigt den Namen und die mögliche Antwort der jeweiligen Person an. Wähle „AWARD“, um den Gewinner zu küren.<br>
+
 ## Shoutingway
 
 <img width="583" height="772" alt="image" src="https://github.com/user-attachments/assets/8240b050-9ac1-4f30-b4b5-389b46240b6e" />
