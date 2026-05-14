@@ -100,6 +100,20 @@ Randomway was requested for games where the person needs to either get the highe
 
 **Clear All:** Delete all the names and numbers. It'll verify this before you do it so be careful.<br>
 
+## Quizzingway
+
+<img width="761" height="732" alt="image" src="https://github.com/user-attachments/assets/5c1bb8f1-a120-4952-9f18-10c16bd7bc71" />
+
+Quizzingway is to help with trivia nights! It allows you to pre-prep the questions, allow for multiple variations of the answer, and accounts for typos with a 25% margin for error.
+
+**Quizzingway Chat Channel:** Where to announce the question and winner.<br>
+
+**Manage Saved Questions:** Here is where you can create the questions, the answer/multiple answers you'll accept, and then you can "Save to Bank" when finished. When you "Load" the question, it'll also reappear here, which is required to begin the quiz.<br>
+
+**Start Question:** Once you Load the question, you hit this button to announce the question to your selected chat channel and the plug-in will scan the chat for the closest or exact answer.<br>
+
+**Quality Check:** This table will show you the name and potential answer provided by that person. You then select "AWARD" to choose the winner.<br>
+
 ## Shoutingway
 
 <img width="583" height="772" alt="image" src="https://github.com/user-attachments/assets/8240b050-9ac1-4f30-b4b5-389b46240b6e" />
