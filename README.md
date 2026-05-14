@@ -132,4 +132,4 @@ Shoutingway is just a means to reduce your macro or copy/paste load by inserting
 
 **Staff Sync:** The linkshell you will use to sync the messages. This can be disabled.<br>
 
-**Spinning/Raffle/Randomway Flavor Text:** Customize how you want your announcements to sound.
+**Flavor Text:** Customize how you want your announcements to sound.
