@@ -114,6 +114,34 @@ Quizzingway is to help with trivia nights! It allows you to pre-prep the questio
 
 **Quality Check:** This table will show you the name and potential answer provided by that person. You then select "AWARD" to choose the winner.<br>
 
+## Deathway
+
+<img width="713" height="335" alt="image" src="https://github.com/user-attachments/assets/2add0564-3516-4ff1-a538-bd4bd26edd68" /> <img width="699" height="599" alt="image" src="https://github.com/user-attachments/assets/5efee64f-631a-4093-a458-76bbd0b95beb" />
+
+Deathway is a Death Roll tournament helper.
+
+First image represents the initial player pool. You can either add the target player or type their name in. **The name *has to be exact* or the rolls from that player won't be detected.**
+
+Second image shows the brackets for the tournament. Right beneath is indicates the phase you're in. Please note: The plug-in is not designed to advance forward after the Roll 10 Phase without user input. This is to prevent false positives from occurring. Once Phase Roll 10 is complete, you click "Start 999 Deathroll" and the plug-in will begin to follow the rolls from the players competing.
+
+The plug-in does detect misrolls and will alert you, however it won't automatically stop everything, so it's still required this is monitored by the host. We've included forfeit buttons for abandoned players/cheating players to help with any missteps. 
+If something goes wrong and you want to start the current match over, click "Reset Current Match". 
+"Abort Tournament" will reset *everything*, so be careful not to hit this button unless you intend to start the entire tournament over.
+
+
+
+
+
+
+-- WIP --
+
+
+
+
+
+
+
+
 ## Shoutingway
 
 <img width="583" height="772" alt="image" src="https://github.com/user-attachments/assets/8240b050-9ac1-4f30-b4b5-389b46240b6e" />
