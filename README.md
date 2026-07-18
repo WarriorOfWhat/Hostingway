@@ -164,6 +164,8 @@ Shoutingway is just a means to reduce your macro or copy/paste load by inserting
 
 ## Settings
 
+**Toggles:** Can enable/disable tabs you're using to make your life easier.
+
 **Language Settings:** Supports English, French, and German. Spanish is included for the menus themselves, but not the actual rolling mechanics because Square doesn't support Spanish for some reason. You'll have to /random in English. Apologies.<br>
 
 **Lock Venue to This Zone / Unlock:** So you don't get 5 billion alerts when you go to Limsa that people have arrived, you can lock the plug-in to only look at your venue. You have to do this INSIDE. You could technically use it outside, but it becomes unreliable. Unlock clears the zone.<br>
