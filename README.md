@@ -28,6 +28,7 @@ Name @ World - Guest name and their home world<br>
 <ins>Colors</ins><br>
 $\color{yellow}{\text{Gold}}$: New, not greeted yet<br>
 White: Greeted<br>
+$\color{purple}{\text{Purple}}$: VIP<br>
 $\color{grey}{\text{Grey}}$: No longer in the venue<br>
 '[*]' - Only appears if a note exists. Can be hovered to view notes written by you or staff.
 
