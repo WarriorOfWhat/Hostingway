@@ -32,9 +32,13 @@ $\color{purple}{\text{Purple}}$: VIP<br>
 $\color{grey}{\text{Grey}}$: No longer in the venue<br>
 '[*]' - Only appears if a note exists. Can be hovered to view notes written by you or staff.
 
-**Greet:** Sends customized DM (Settings tab) to greet your guest with important information, like your website, discord, or rules. Once pressed, it remembers who has been greeted, even if they leave and come back.
+**Greet/VIP Greet:** Sends customized DM (Settings tab) to greet your guest with important information, like your website, discord, or rules. Once pressed, it remembers who has been greeted, even if they leave and come back.<br>
 
-**Note:** Notes to help you remember a guest for a more personalized experience. 100 character limit.
+**Skip**: Skips a greeting/marks them as greeted without sending a DM.<br>
+
+**Note:** Notes to help you remember a guest for a more personalized experience. 100 character limit.<br>
+
+**VIP/Un-VIP:** Add/Remove from VIP Database.<br>
 
 **Reset Session Greets:** We recommend using this before using **Clear Offline History** if you want to greet everyone the same every night, including regulars. If not, this can be ignored.<br>
 
@@ -42,10 +46,9 @@ $\color{grey}{\text{Grey}}$: No longer in the venue<br>
 
 ## Spinningway
 
-<img width="583" height="748" alt="image" src="https://github.com/user-attachments/assets/763391b3-b4fa-419a-a24b-a9cfc839cf6f" />
+<img width="766" height="714" alt="image" src="https://github.com/user-attachments/assets/f73a52d4-8b93-48aa-9724-7c8eb46980ea" />
 
-Spinningway is a prize wheel to help venue staff with giveaways and other contests.
-It's pretty straightforward. While it's intended for name drawing, it can also be used for other games.
+Spinningway is a prize wheel to help venue staff with giveaways and other contests. It's pretty straightforward. While it's intended for name drawing, it can also be used for other games.<br>
 
 **Bulk Entry:** Lets you copy and paste names from an external list for the wheel.<br>
 
@@ -55,19 +58,21 @@ It's pretty straightforward. While it's intended for name drawing, it can also b
 
 **Manual:** You can also type a name in to manually add them.<br>
 
-**Clear wheel** will remove all names.<br>
+You can **hit the X** to remove a name.<br>
 
-You can **right-click a name** to remove it.<br>
+**Clear wheel** will remove all names.<br>
 
 ## Raffleway
 
-<img width="582" height="542" alt="image" src="https://github.com/user-attachments/assets/bfbf14c9-b00b-4fd1-aa94-6c7605a2cdda" />
+<img width="771" height="721" alt="image" src="https://github.com/user-attachments/assets/c4d28657-5d93-4913-ae07-8a6e8a81dca3" />
 
-Raffleway is an effort to move venue owners away from spreadsheets when they run their raffles. It also announces winners in game, and still utilizes /random for transparency.
+Raffleway is an effort to move venue owners away from spreadsheets when they run their raffles. It also announces winners in game, and still utilizes /random for transparency.<br>
 
 **Raffle Chat Channel:** Where to announce the raffle rolls, winner, etc.<br>
 
 **Ticket Price:** Insert your cost per raffle ticket here for proper calculations of your prize pool.<br>
+
+**Starting Pool:** If you want to have a starting pool.<br>
 
 **Ticket Purchase:** Type in the player's name and how many tickets they've purchased. Click Add Entry when done. If the player comes back to buy more tickets or you make a mistake, you can simply add the rest of the entries again and it'll make a new row.<br>
 
@@ -90,6 +95,8 @@ Raffleway is an effort to move venue owners away from spreadsheets when they run
 Randomway was requested for games where the person needs to either get the highest, lowest, closest, or exact roll to win something.
 
 **Randomway Chat Channel:** Where to announce the winner.<br>
+
+**Include Host in Leaderboard:** This will include the person running the plug-in in the rolls. Otherwise it'll ignore your own rolls.<br>
 
 **Win Condition:** Highest, Lowest, Closest to Target, or Exact - just like they sound.<br>
 
@@ -121,25 +128,33 @@ Deathway is a Death Roll tournament helper. <br>
 
 First image represents the initial player pool. You can either add the target player or type their name in. **The name *has to be exact* or the rolls from that player won't be detected.** <br>
 
-Second image shows the brackets for the tournament. Right beneath is indicates the phase you're in. Please note: The plug-in is not designed to advance forward after the Roll 10 Phase without user input. This is to prevent false positives from occurring. Once Phase Roll 10 is complete, you click "Start 999 Deathroll" and the plug-in will begin to follow the rolls from the players competing.
+Second image shows the brackets for the tournament. Right beneath is indicates the phase you're in. Please note: The plug-in is not designed to advance forward after the Roll 10 Phase without user input. This is to prevent false positives from occurring. Once Phase Roll 10 is complete, you click "Start 999 Deathroll" and the plug-in will begin to follow the rolls from the players competing.<br>
 
 The plug-in does detect misrolls and will alert you, however it won't automatically stop everything, so it's still required this is monitored by the host. We've included forfeit buttons for abandoned players/cheating players to help with any missteps. <br>
+
 If something goes wrong and you want to start the current match over, click "Reset Current Match". <br>
+
 "Abort Tournament" will reset *everything*, so be careful not to hit this button unless you intend to start the entire tournament over.<br>
 
+## Payingway
 
+Payingway is another attempt to move away from spreadsheets for your staff by adding them to a database, activating them for any given night, and tracking how much you owe them and what the total cost will be by end of night.<br>
 
+**__Nightly Ledger Tab__**
 
+<img width="762" height="257" alt="image" src="https://github.com/user-attachments/assets/231e9b96-cc2d-4b23-97a5-d72cf19f340d" />
 
+**Wipe Ledger Balance:** This will reset the entire nightly ledger with confirmation.
 
--- WIP --
+**Trade/Dropbox Trade:** This will find the nearest target with that name and focus target them for you. If you have Dropbox installed, it'll initiate the trade to start paying them out. If you do not, it'll just open a trade window for you and track how much you've paid them. You can also view "Trade History" to check the status of your trades.
 
+**__Staff Database__**
 
+Here is where you document your staff member (Get exact names to use the trade button), their role, and what their base pay is (What you intend to pay them).
 
+**__Trade History__**
 
-
-
-
+Documents all completed trades to whom and the amount.
 
 ## Shoutingway
 
