@@ -1,134 +1,179 @@
 # [English](README.md) | [Français](README-fr.md) | [Deutsch] | [Español](README-es.md)
+---
 
 # Hostingway
 
-Hostingway ist ein Hilfswerkzeug für Location-Manager, das dabei hilft, Gäste in deiner Location im Blick zu behalten. Es bietet eine Schaltfläche zum Senden einer anpassbaren privaten Nachricht (DM) zur Begrüßung, ermöglicht das Hinzufügen von Notizen zu jedem Besucher für eine persönlichere Erfahrung bei zukünftigen Besuchen und enthält eine Schaltfläche, um Gäste direkt zu einem Glücksrad für Giveaways und andere Events hinzuzufügen. Diese Informationen können durch die Nutzung eines gemeinsamen Linkshells mit dem Personal synchronisiert werden.
+Hostingway ist ein Dienstprogramm für Betreiber von Veranstaltungsorten, das dabei hilft, Gäste in deinem Lokal im Blick zu behalten. Es bietet eine Schaltfläche zum Senden einer anpassbaren Privatnachricht zur Begrüßung, ermöglicht das Hinzufügen von Notizen zu jedem Besucher für ein persönlicheres Erlebnis bei zukünftigen Besuchen, sowie eine Schaltfläche, um sie einem Glücksrad für Verlosungen und andere Events hinzuzufügen. Diese Informationen können über das Personal synchronisiert werden, indem ein gemeinsamer Linkshell verwendet wird.
 
-Repo: https://WarriorOfWhat.github.io/WhatRepo/repo.json
+Repository: https://WarriorOfWhat.github.io/WhatRepo/repo.json
 
 ## Synchronisierung
 
-Die Synchronisierung funktioniert so, dass das Plugin eine <strike>versteckte</strike> Nachricht in den festgelegten Linkshell sendet, die von jedem im Linkshell empfangen wird, der das Plugin ebenfalls nutzt. Dies hilft dabei, doppelte Begrüßungen zu vermeiden. Wenn Mitarbeiter eine Notiz machen müssen, können sie diese selbst einfügen, und du erhältst die Notiz ebenfalls. <br>
-**BITTE BEACHTEN:** Notizen werden von der Person überschrieben, die die letzte Notiz eingibt und auf Speichern drückt.<br>
-(HINWEIS 08.05.26): Die Nachricht ist zu diesem Zeitpunkt eventuell nicht versteckt. Ich arbeite daran.
+Die Synchronisierung funktioniert, indem das Plug-in eine <strike>versteckte</strike> Nachricht in den festgelegten Linkshell sendet, die von jedem, der das Plug-in in diesem Linkshell verwendet, empfangen wird. Dies hilft, doppelte Begrüßungen von Gästen zu vermeiden, und wenn Personal eine Notiz hinzufügen muss, kann es dies selbst tun, und du erhältst die Notiz ebenfalls.<br>
+**BITTE BEACHTEN:** Notizen werden von der Person überschrieben, die zuletzt eine Notiz einträgt und speichert.<br>
+(HINWEIS 08.05.26): Die Nachricht ist derzeit möglicherweise nicht versteckt. Ich arbeite daran.
 
-## Guide 
+## Anleitung
 
 ## Greetingway
 
-<img width="580" height="413" alt="image" src="https://github.com/user-attachments/assets/9952811a-39d3-467d-8fe8-09e9fbfc78cf" />
+<img width="765" height="272" alt="image" src="https://github.com/user-attachments/assets/7bd150b7-3f97-4cd4-994b-89ea46b1f6cc" />
 
-**Arrived (Ankunft):** Zeit, zu der ein Gast angekommen ist.<br>
+**Angekommen:** Zu welcher Uhrzeit ein Gast angekommen ist.<br>
 
-**Status:** Ob sie noch anwesend sind oder wann sie gegangen sind.<br>
+**Status:** Ob sie noch anwesend sind, oder zu welcher Uhrzeit sie gegangen sind.<br>
 
-**Guest Info (Gast-Infos):**<br>
+**Gastinfo:**<br>
 Name @ Welt - Name des Gastes und seine Heimatwelt<br>
 <ins>Farben</ins><br>
 $\color{yellow}{\text{Gold}}$: Neu, noch nicht begrüßt<br>
 Weiß: Begrüßt<br>
-$\color{grey}{\text{Grau}}$: Nicht mehr in der Location<br>
-'[*]' - Erscheint nur, wenn eine Notiz existiert. Kann mit der Maus berührt werden, um Notizen von dir oder dem Personal zu sehen.
+$\color{purple}{\text{Lila}}$: VIP<br>
+$\color{grey}{\text{Grau}}$: Nicht mehr im Lokal<br>
+„[*]" - Erscheint nur, wenn eine Notiz existiert. Kann mit dem Mauszeiger überfahren werden, um Notizen von dir oder dem Personal anzuzeigen.
 
-**Greet (Begrüßen):** Sendet eine angepasste DM (Tab "Settings"), um deinen Gast mit wichtigen Informationen wie deiner Website, Discord oder Regeln zu begrüßen. Sobald die Taste gedrückt wurde, merkt sich das System, wer begrüßt wurde, selbst wenn die Person die Location verlässt und wiederkommt.
+**Begrüßen/VIP begrüßen:** Sendet eine angepasste Privatnachricht (Tab Einstellungen), um deinen Gast mit wichtigen Informationen zu begrüßen, wie deiner Website, Discord oder den Regeln. Sobald geklickt, merkt sich das Plug-in, wer begrüßt wurde, selbst wenn die Person geht und zurückkommt.<br>
 
-**Note (Notiz):** Notizen, die dir helfen, dich an einen Gast zu erinnern, für eine persönlichere Erfahrung. Limit von 100 Zeichen.
+**Überspringen:** Überspringt eine Begrüßung / markiert sie als begrüßt, ohne eine Nachricht zu senden.<br>
 
-**+Wheel (+Rad):** Fügt den Spieler dem Spinningway-Glücksrad hinzu. Siehe unten.<br>
+**Notiz:** Notizen, die dir helfen, dich an einen Gast zu erinnern, für ein persönlicheres Erlebnis. Begrenzung auf 100 Zeichen.<br>
 
-**Reset Session Greets (Sitzungs-Begrüßungen zurücksetzen):** Wir empfehlen dies, bevor du **Clear Offline History** verwendest, wenn du jeden Abend jeden gleich begrüßen möchtest (einschließlich Stammgästen). Wenn nicht, kann dies ignoriert werden.<br>
+**VIP/VIP entfernen:** Zur VIP-Datenbank hinzufügen/daraus entfernen.<br>
 
-**Clear Offline History (Offline-Verlauf löschen):** Wenn Gäste die Location verlassen haben und du eine sauberere Liste möchtest, kannst du dies verwenden, um alle zu entfernen, die die Location verlassen haben. Alle Notizen bleiben dabei erhalten.<br>
+**Sitzungsbegrüßungen zurücksetzen:** Wir empfehlen, dies vor der Nutzung von **Offline-Verlauf löschen** zu verwenden, wenn du jeden Abend jeden gleich begrüßen möchtest, auch Stammgäste. Falls nicht, kann dies ignoriert werden.<br>
+
+**Offline-Verlauf löschen:** Wenn Gäste das Lokal verlassen haben und du eine übersichtlichere Liste möchtest, kannst du damit alle entfernen, die das Lokal verlassen haben. Alle Notizen bleiben dabei erhalten.<br>
 
 ## Spinningway
 
-<img width="583" height="748" alt="image" src="https://github.com/user-attachments/assets/763391b3-b4fa-419a-a24b-a9cfc839cf6f" />
+<img width="766" height="714" alt="image" src="https://github.com/user-attachments/assets/f73a52d4-8b93-48aa-9724-7c8eb46980ea" />
 
-Spinningway ist ein Glücksrad, um das Personal bei Giveaways und anderen Wettbewerben zu unterstützen.
-Es ist sehr einfach zu bedienen. Obwohl es für Namensziehungen gedacht ist, kann es auch für andere Spiele verwendet werden.
+Spinningway ist ein Glücksrad, das dem Personal bei Verlosungen und anderen Wettbewerben hilft. Es ist ziemlich unkompliziert. Obwohl es für das Ziehen von Namen gedacht ist, kann es auch für andere Spiele verwendet werden.<br>
 
-**Bulk Entry (Masseneintrag):** Ermöglicht das Kopieren und Einfügen von Namen aus einer externen Liste für das Rad.<br>
+**Massenerfassung:** Ermöglicht das Kopieren und Einfügen von Namen aus einer externen Liste für das Rad.<br>
 
-**Add Target (Ziel hinzufügen):** Ermöglicht es, jemanden anzuklicken und zum Rad hinzuzufügen.<br>
+**Ziel hinzufügen:** Ermöglicht es dir, jemanden anzuklicken und ihn dem Rad hinzuzufügen.<br>
 
-**Add Nearby (Umgebung hinzufügen):** Fügt jeden im Umkreis von 20 Yalms zum Rad hinzu.<br>
+**In der Nähe hinzufügen:** Fügt jeden innerhalb von 20 Yalms dem Rad hinzu. Dies sollte dein gesamtes Lokal abdecken.<br>
 
-**Manual (Manuell):** Du kannst einen Namen auch manuell eintippen.<br>
+**Manuell:** Du kannst auch einen Namen manuell eingeben, um ihn hinzuzufügen.<br>
 
-**Clear wheel (Rad leeren)** entfernt alle Namen.<br>
+Du kannst **das X anklicken**, um einen Namen zu entfernen.<br>
 
-Du kannst einen **Rechtsklick auf einen Namen** machen, um ihn zu entfernen.<br>
+**Rad leeren** entfernt alle Namen.<br>
 
 ## Raffleway
 
-<img width="582" height="542" alt="image" src="https://github.com/user-attachments/assets/bfbf14c9-b00b-4fd1-aa94-6c7605a2cdda" />
+<img width="771" height="721" alt="image" src="https://github.com/user-attachments/assets/c4d28657-5d93-4913-ae07-8a6e8a81dca3" />
 
-Raffleway ist ein Versuch, Location-Besitzer bei ihren Verlosungen von Tabellenkalkulationen wegzubringen. Es verkündet Gewinner im Spiel und nutzt weiterhin /random für die Transparenz.
+Raffleway ist ein Versuch, Betreiber von Veranstaltungsorten von Tabellenkalkulationen bei ihren Verlosungen wegzubringen. Es kündigt Gewinner außerdem im Spiel an und nutzt weiterhin /random zur Transparenz.<br>
 
-**Raffle Chat Channel:** Wo die Verlosungswürfe, Gewinner usw. angekündigt werden.<br>
+**Verlosungs-Chatkanal:** Wo die Würfe, der Gewinner usw. angekündigt werden.<br>
 
-**Ticket Price (Ticketpreis):** Gib hier den Preis pro Ticket ein, damit dein Preispool korrekt berechnet wird.<br>
+**Ticketpreis:** Trage hier deinen Preis pro Verlosungsticket für die korrekte Berechnung deines Gewinnpools ein.<br>
 
-**Ticket Purchase (Ticketkauf):** Gib den Namen des Spielers ein und wie viele Tickets er gekauft hat. Klicke auf "Add Entry". Wenn der Spieler zurückkommt, um mehr Tickets zu kaufen, füge die restlichen Einträge einfach erneut hinzu – es wird eine neue Zeile erstellt.<br>
+**Startpool:** Falls du einen Startpool haben möchtest.<br>
 
-**% Cut (Anteil):** Wenn deine Verlosung 50/50, 70/30, 90/10 usw. ist, gib den Prozentsatz ein, den du von den Einnahmen behalten möchtest, und der Preispool wird neu berechnet. Gib 0 ein, wenn du keinen Anteil möchtest.<br>
+**Ticketkauf:** Gib den Namen des Spielers und die Anzahl der gekauften Tickets ein. Klicke auf Eintrag hinzufügen, wenn fertig. Wenn der Spieler zurückkommt, um mehr Tickets zu kaufen, oder du einen Fehler machst, kannst du einfach die restlichen Einträge erneut hinzufügen, und es wird eine neue Zeile erstellt.<br>
 
-**Standard Raffle (< 999 Einträge):** Klicke auf "Roll for Winner" und dein Flavor-Text (in den Einstellungen) wird ankündigen, dass du dich auf den Wurf vorbereitest und für wie viele Tickets (z. B. /random 350).<br>
+**% Anteil:** Wenn deine Verlosung 50/50, 70/30, 90/10 usw. ist, gib den Prozentsatz ein, den du von den Einträgen behalten möchtest, und der gesamte Gewinnpool wird neu berechnet. Setze 0, wenn du keinen Anteil möchtest.<br>
 
-**Multi-Block Raffle (> 999 Einträge):** Wenn du 999 Einträge überschreitest, ist das Block-Rollen der fairste Weg. Klicke zuerst auf "Roll for Block", dann mache /random #. Klicke dann auf "Roll for Winner" und mache ein weiteres /random # basierend auf den verbleibenden Einträgen. Beispiel: Deine Verlosung hat 1100 Tickets. Du rollst für den Block und erhältst eine 2. Block 2 sind die Tickets #1000 bis #1100. Dann rollst du innerhalb dieses Blocks und erhältst eine 60. Das System rechnet nach und Ticket #1059 ist der Gewinner.<br>
+**Standardverlosung (< 999 Einträge):** Klicke auf „Gewinner auslosen", und dein Ambiente-Text (in den Einstellungen) wird ankündigen, dass du dich auf das Auslosen vorbereitest und für wie viele Tickets. (z. B. /random 350)<br>
 
-**Announce Winner (Gewinner bekanntgeben):** Sobald du eine Gewinn-Ticketnummer hast, erkennt das System, wem das Ticket gehört, und gibt den Namen bekannt.<br>
+**Mehrblock-Verlosung (> 999 Einträge):** Wenn du 999 Einträge überschreitest (Glückwunsch!), ist die fairste Methode zum Auslosen das Blockauslosen. Du klickst zuerst auf „Block auslosen", dann machst du /random #. Danach klickst du auf Gewinner auslosen und machst ein weiteres /random # basierend auf den verbleibenden Einträgen. Zum Beispiel: Deine Verlosung hat 1100 Tickets. Du losst den Block aus und erhältst eine 2. Block 2 sind die Tickets Nr. 1000 bis Nr. 1100. Dann losst du innerhalb dieses Blocks aus und erhältst 60. Es wird automatisch berechnet, und Ticket Nr. 1059 ist der Gewinner.<br>
 
-**Reset Drawing (Ziehung zurücksetzen):** Setzt die gezogene Ticketnummer zurück, falls etwas schiefgeht. Die Namen bleiben erhalten.<br>
+**Gewinner ankündigen:** Sobald du eine Gewinn-Ticketnummer hast, erkennt das Plug-in, wem sie gehört, und kündigt den Namen an.<br>
 
-**Clear All Entries (Alle Einträge löschen):** Löscht alle Namen und Ticketnummern. Dies muss bestätigt werden, also sei vorsichtig.<br>
+**Auslosung zurücksetzen:** Setzt die ausgeloste Ticketnummer zurück, falls etwas schiefgelaufen ist. Die Namen bleiben erhalten.<br>
+
+**Alle Einträge löschen:** Löscht alle Namen und Ticketnummern. Dies wird vorher bestätigt, also sei vorsichtig.<br>
 
 ## Randomway
 
 <img width="581" height="559" alt="image" src="https://github.com/user-attachments/assets/ce2f47c6-8278-4abd-bc3e-5b22baa990fc" />
 
-Randomway wurde für Spiele angefragt, bei denen eine Person entweder den höchsten, niedrigsten, am nächsten liegenden oder exakten Wurf erzielen muss, um etwas zu gewinnen.
+Randomway wurde für Spiele angefragt, bei denen die Person entweder den höchsten, niedrigsten, nächstgelegenen oder exakten Wurf erzielen muss, um etwas zu gewinnen.
 
-**Randomway Chat Channel:** Wo der Gewinner bekanntgegeben wird.<br>
+**Randomway-Chatkanal:** Wo der Gewinner angekündigt wird.<br>
 
-**Win Condition (Siegbedingung):** Höchster, Niedrigster, Am nächsten am Ziel oder Exakt.<br>
+**Gastgeber in Bestenliste einbeziehen:** Dies bezieht die Person, die das Plug-in verwendet, in die Würfe mit ein. Andernfalls werden deine eigenen Würfe ignoriert.<br>
 
-**Closest to Target/Exact (Zielnähe/Exakt):** Du kannst diese Zahl entweder manuell eingeben oder "Roll for Target" verwenden, das darauf wartet, dass du /random machst, und die Zahl automatisch in das Feld einträgt.<br>
+**Gewinnbedingung:** Höchster, niedrigster, nächster am Ziel, oder exakt - genau wie sie klingen.<br>
 
-**START SCANNING:** Wir empfehlen, diesen Button zu drücken, BEVOR du die Leute bittest, /random zu machen. Er erkennt dann jedes /random im Log. Es wird nur der erste Wurf einer Person gezählt.<br>
+**Nächster am Ziel/Exakt:** Du kannst diese Zahl entweder manuell eingeben oder „Ziel auslosen" verwenden, wodurch gewartet wird, bis du /random machst, und die Zahl automatisch in das Feld eingetragen wird.<br>
 
-**Clear All (Alles löschen):** Löscht alle Namen und Zahlen. Muss bestätigt werden.<br>
+**SCAN STARTEN:** Wir empfehlen, diese Schaltfläche zu drücken, BEVOR du die Leute bittest, mit /random zu beginnen. Es wird dann jedes /random im Log erkennen, sobald es erscheint. Es wird nur den ersten /random-Wurf einer Person berücksichtigen, und wenn du die Option zum Einbeziehen der Würfe des Gastgebers ausgewählt hast, wird dies getan. Andernfalls werden die Würfe des Gastgebers ignoriert.<br>
+
+**Alles löschen:** Löscht alle Namen und Zahlen. Dies wird vorher bestätigt, also sei vorsichtig.<br>
 
 ## Quizzingway
 
 <img width="761" height="732" alt="image" src="https://github.com/user-attachments/assets/5c1bb8f1-a120-4952-9f18-10c16bd7bc71" />
 
-Quizzingway hilft dir bei deinen Quiz-Abenden! Es ermöglicht dir, Fragen vorzubereiten, verschiedene Antwortvarianten zu hinterlegen und berücksichtigt Tippfehler mit einer Fehlertoleranz von 25 %.
+Quizzingway hilft bei Quizabenden! Es ermöglicht dir, Fragen im Voraus vorzubereiten, mehrere Varianten der Antwort zuzulassen, und berücksichtigt Tippfehler mit einer Fehlertoleranz von 25 %.<br>
 
-**Quizzingway-Chat-Kanal:** Hier werden die Fragen und die Gewinner angekündigt.<br>
+**Quizzingway-Chatkanal:** Wo die Frage und der Gewinner angekündigt werden.<br>
 
-**Gespeicherte Fragen verwalten:** Hier kannst du Fragen sowie die akzeptierten Antworten (auch mehrere Varianten) erstellen. Klicke auf „Save to Bank“, wenn du fertig bist. Wenn du eine Frage lädst („Load“), erscheint sie wieder hier – dies ist erforderlich, um das Quiz zu starten.<br>
+**Gespeicherte Fragen verwalten:** Hier erstellst du die Fragen, die Antwort(en), die du akzeptierst, und kannst dann „In Bank speichern" klicken, wenn fertig. Wenn du die Frage „Lädst", erscheint sie hier ebenfalls wieder, was erforderlich ist, um das Quiz zu starten.<br>
 
-**Frage starten:** Sobald die Frage geladen ist, klicke auf diesen Button, um die Frage im ausgewählten Chat-Kanal zu posten. Das Plugin scannt den Chat dann nach der genauesten oder ähnlichsten Antwort.<br>
+**Frage starten:** Sobald du die Frage geladen hast, drückst du diese Schaltfläche, um die Frage im ausgewählten Chatkanal anzukündigen, und das Plug-in durchsucht den Chat nach der nächstgelegenen oder exakten Antwort.<br>
 
-**Qualitätsprüfung:** Diese Tabelle zeigt den Namen und die mögliche Antwort der jeweiligen Person an. Wähle „AWARD“, um den Gewinner zu küren.<br>
+**Qualitätskontrolle:** Diese Tabelle zeigt dir den Namen und die mögliche Antwort dieser Person. Du wählst dann „VERGEBEN", um den Gewinner auszuwählen.<br>
+
+## Deathway
+
+<img width="713" height="335" alt="image" src="https://github.com/user-attachments/assets/2add0564-3516-4ff1-a538-bd4bd26edd68" /> <img width="699" height="599" alt="image" src="https://github.com/user-attachments/assets/5efee64f-631a-4093-a458-76bbd0b95beb" />
+
+Deathway ist ein Helfer für Death-Roll-Turniere.<br>
+
+Das erste Bild zeigt den anfänglichen Spielerpool. Du kannst entweder den Zielspieler hinzufügen oder seinen Namen eingeben. **Der Name muss exakt* sein, sonst werden die Würfe dieses Spielers nicht erkannt.**<br>
+
+Das zweite Bild zeigt die Turnierbaum-Übersicht. Direkt darunter wird angezeigt, in welcher Phase du dich befindest. Bitte beachten: Das Plug-in ist nicht dafür ausgelegt, nach der Wurf-10-Phase ohne Eingabe des Nutzers automatisch fortzufahren. Dies dient dazu, falsch-positive Ergebnisse zu verhindern. Sobald die Wurf-10-Phase abgeschlossen ist, klickst du auf „999-Deathroll starten", und das Plug-in beginnt, die Würfe der teilnehmenden Spieler zu verfolgen.<br>
+
+Das Plug-in erkennt auch Fehlwürfe und wird dich benachrichtigen, stoppt jedoch nicht automatisch alles, sodass eine Überwachung durch den Gastgeber weiterhin erforderlich ist. Wir haben Aufgabe-Schaltflächen für aufgebende/betrügende Spieler eingefügt, um bei Fehltritten zu helfen.<br>
+
+Falls etwas schiefgeht und du das aktuelle Match neu starten möchtest, klicke auf „Aktuelles Match zurücksetzen".<br>
+
+„Turnier abbrechen" setzt *alles* zurück, sei also vorsichtig, diese Schaltfläche nur zu drücken, wenn du beabsichtigst, das gesamte Turnier von vorne zu beginnen.<br>
+
+## Payingway
+
+Payingway ist ein weiterer Versuch, dein Personal von Tabellenkalkulationen wegzubringen, indem sie zu einer Datenbank hinzugefügt, für einen bestimmten Abend aktiviert werden, und verfolgt wird, wie viel du ihnen schuldest und wie hoch die Gesamtkosten am Ende des Abends sein werden.<br>
+
+**__Tab Nächtliches Kassenbuch__**
+
+<img width="762" height="257" alt="image" src="https://github.com/user-attachments/assets/231e9b96-cc2d-4b23-97a5-d72cf19f340d" />
+
+**Kassenbuchsaldo zurücksetzen:** Dies setzt das gesamte nächtliche Kassenbuch mit Bestätigung zurück.
+
+**Handel/Dropbox-Handel:** Dies findet das nächstgelegene Ziel mit diesem Namen und fokussiert es für dich. Wenn du Dropbox installiert hast, wird der Handel initiiert, um mit der Auszahlung zu beginnen. Falls nicht, wird lediglich ein Handelsfenster für dich geöffnet und verfolgt, wie viel du bereits ausgezahlt hast. Du kannst auch den „Handelsverlauf" einsehen, um den Status deiner Handel zu überprüfen.
+
+**__Personaldatenbank__**
+
+Hier dokumentierst du deine Personalmitglieder (verwende exakte Namen, um die Handelsschaltfläche zu nutzen), ihre Rolle, und wie hoch ihr Grundgehalt ist (was du ihnen zu zahlen beabsichtigst).
+
+**__Handelsverlauf__**
+
+Dokumentiert alle abgeschlossenen Handel, an wen und in welcher Höhe.
 
 ## Shoutingway
 
 <img width="583" height="772" alt="image" src="https://github.com/user-attachments/assets/8240b050-9ac1-4f30-b4b5-389b46240b6e" />
 
-Shoutingway dient dazu, deine Makro- oder Copy/Paste-Last zu reduzieren, indem du eine Nachricht einfügst und auf Shout/Yell klickst, um sie auszuführen. Gedacht für gelegentliche Ankündigungen über Websites, Discord oder andere Events in der Location.<br>
+Shoutingway ist einfach ein Mittel, um deinen Aufwand für Makros oder Kopieren/Einfügen zu reduzieren, indem du eine Nachricht einfügst und auf Rufen/Schreien klickst (je nach Vorliebe), um sie auszuführen. Gedacht, um bei gelegentlichen Ankündigungen zu helfen, die Betreiber gerne machen, um ihre Website, Discord oder andere Veranstaltungen im Lokal an diesem Abend zu bewerben.
 
-## Settings (Einstellungen)
+## Einstellungen
 
-**Language Settings:** Unterstützt Englisch, Französisch und Deutsch. Spanisch ist für die Menüs enthalten, aber nicht für die eigentliche Würfel-Mechanik, da Square Enix Spanisch nicht offiziell unterstützt. Du musst /random auf Englisch verwenden.<br>
+**Umschalter:** Du kannst Tabs, die du verwendest, aktivieren/deaktivieren, um dir das Leben zu erleichtern.
 
-**Lock Venue to This Zone / Unlock (Location an Zone binden):** Damit du nicht 5 Milliarden Benachrichtigungen erhältst, wenn du nach Limsa gehst, kannst du das Plugin so sperren, dass es nur in deiner Location sucht. Dies muss INNERHALB der Location gemacht werden.<br>
+**Spracheinstellungen:** Unterstützt Englisch, Französisch und Deutsch. Spanisch ist für die Menüs selbst enthalten, jedoch nicht für die eigentlichen Auslosungsmechanismen, da Square aus irgendeinem Grund kein Spanisch unterstützt. Du musst /random auf Englisch verwenden. Entschuldigung.<br>
 
-**Enable Doorbell (Türklingel aktivieren):** Verwendet einen Echo-Chat, um dich zu benachrichtigen, wenn jemand angekommen ist. Der Benachrichtigungston kann geändert werden.<br>
+**Lokal auf diese Zone sperren / Entsperren:** Damit du nicht Milliarden von Benachrichtigungen bekommst, wenn du nach Limsa gehst, dass Leute angekommen sind, kannst du das Plug-in so sperren, dass es nur dein Lokal beobachtet. Du musst dies IM INNEREN tun. Du könntest es technisch auch draußen verwenden, aber es wird unzuverlässig. Entsperren löscht die Zone.<br>
 
-**Greeting Template (Begrüßungsvorlage):** Was gesendet wird, wenn du auf "Greet" drückst.<br>
+**Türklingel aktivieren:** Verwendet eine Echo-Nachricht, um dich zu benachrichtigen, dass jemand angekommen ist. Du kannst den Benachrichtigungston wechseln, den du verwenden möchtest.<br>
 
-**Staff Sync (Personal-Synchronisierung):** Der Linkshell, den du zum Synchronisieren der Nachrichten verwendest. Kann deaktiviert werden.<br>
+**Begrüßungsvorlage:** Was gesendet wird, wenn du auf „Begrüßen" drückst.<br>
 
-**Flavor Text:** Passe an, wie deine Ankündigungen klingen sollen.
+**Personal-Synchronisierung:** Der Linkshell, den du zur Synchronisierung der Nachrichten verwendest. Dies kann deaktiviert werden.<br>
+
+**Ambiente-Text:** Passe an, wie deine Ankündigungen klingen sollen.
